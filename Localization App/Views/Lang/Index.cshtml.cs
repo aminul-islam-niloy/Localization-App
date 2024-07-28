@@ -2,9 +2,9 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Localization_App.Views.Shared
+namespace Localization_App.Views.Lang
 {
-    public class LangModel : PageModel
+    public class IndexModel : PageModel
     {
         public IActionResult OnGet(string culture)
         {

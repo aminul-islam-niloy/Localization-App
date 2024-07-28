@@ -1,6 +1,10 @@
-﻿@{
+﻿@page
+@model Localization_App.Views.Home.PrivacyModel
+@{
+}
+@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<h1>@Localizer["PrivacyPolicy"]</h1>
+<p>@Localizer["PrivacyDescription"]</p>

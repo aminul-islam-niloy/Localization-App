@@ -17,6 +17,10 @@ namespace Localization_App.Controllers
         {
             return View();
         }
+        public IActionResult Language()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
